@@ -1,0 +1,20 @@
+.badge {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-bottom: 7px;
+    border-radius: 15px;
+    
+    font-size: 18px;
+    font-family: var(--font-family-poppins-m);
+    
+    background: var(--color-gray-dark);
+}
+
+@media (max-width: 849px) {
+    .badge {
+        margin-bottom: 7px;
+        padding: 8px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+}

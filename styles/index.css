@@ -1,0 +1,43 @@
+/* Basic */
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./variables.css);
+
+/* Components */
+@import url(./components/buttons.css);
+@import url(./components/cards.css);
+
+/* Sections */
+@import url(./sections/header.css);
+
+
+body {
+    font-family: var(--font-family-main-m);
+    background-color: var();
+    color: var();
+}
+
+.none {
+    display: none !important;
+}
+
+.nav__toggle {
+    display: none;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+
+.container-right {
+    padding-left: calc( (100% - var(--container-width))/2 + var(--container-padding) );
+}
+.container-left {
+    padding-right: calc( (100% - var(--container-width))/2 + var(--container-padding) );
+}

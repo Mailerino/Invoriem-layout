@@ -1,0 +1,28 @@
+.button-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    
+    padding: 10px 24px;
+
+    border: 1px solid var(--color-blue-dark);
+    border-radius: 2px;
+
+    color: var(--color-white);
+    background: var(--color-blue-dark);
+
+    font-size: 20px;
+    line-height: 36px;
+    font-family: var(--font-family-main-eb);
+}
+
+.button-main:hover {
+    background-color: var(--color-blue-medium);
+    transition: background-color var(--animation);
+}
+
+.button-main:active {
+    position: relative;
+    top: 1px;
+}

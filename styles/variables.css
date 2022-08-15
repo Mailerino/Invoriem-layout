@@ -1,0 +1,27 @@
+:root {
+    --color-white: #FFFFFF;
+
+    --color-black: #1F1F1F;
+    --color-black-lighter: rgba(31, 31, 31, 0.7);
+
+    --color-bg-light: #FFFFFF;
+    --color-bg-dark: #000000;
+    
+    --color-blue-dark: #114455;
+    --color-blue-medium: #176179;
+
+    --color-cobalt: #4A2AD3;
+    --color-cobalt-dark: rgba(73, 42, 211, 0.7);
+
+    --font-family-main-eb: Gilroy-EB, sans-serif;
+    --font-family-main-m: Gilroy-M, sans-serif;
+    
+    --font-family-worksans-r: WorkSans-R, sans-serif;
+
+    --animation-speed: .3s;
+    --animation-func: ease;
+    --animation: var(--animation-speed) var(--animation-func);
+
+    --container-width: 1720px;
+    --container-padding: 15px;
+}
