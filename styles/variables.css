@@ -13,8 +13,11 @@
     --color-cobalt: #4A2AD3;
     --color-cobalt-dark: rgba(73, 42, 211, 0.7);
 
-    --font-family-main-eb: Gilroy-EB, sans-serif;
+    --font-family-main-r: Gilroy-R, sans-serif;
     --font-family-main-m: Gilroy-M, sans-serif;
+    --font-family-main-sb: Gilroy-SB, sans-serif;
+    --font-family-main-b: Gilroy-B, sans-serif;
+    --font-family-main-eb: Gilroy-EB, sans-serif;
     
     --font-family-worksans-r: WorkSans-R, sans-serif;
 
@@ -22,6 +25,6 @@
     --animation-func: ease;
     --animation: var(--animation-speed) var(--animation-func);
 
-    --container-width: 1720px;
+    --container-width: 1750px;
     --container-padding: 15px;
 }
