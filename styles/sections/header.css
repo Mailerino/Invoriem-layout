@@ -13,10 +13,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.nav--header {
-}
-.nav__logo {
-}
 .nav__content {
     display: flex;
     align-items: center;
@@ -61,7 +57,23 @@
     background-color: var(--color-blue-dark);
     transition: all var(--animation);
 }
-.button-main {
-}
 .nav__toggle {
+}
+.header__content {
+    padding-top: 125px;
+    max-width: 900px;
+}
+.header__title {
+    font-size: 80px;
+    font-family: var(--font-family-main-eb);
+    color: var(--color-blue-dark);
+    padding-bottom: 50px;
+}
+.header__text {
+    font-size: 34px;
+    padding-bottom: 70px;
+    color: var(--color-black-lighter);
+}
+.header__button {
+    display: inline-flex;
 }
