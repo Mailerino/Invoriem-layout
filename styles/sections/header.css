@@ -68,11 +68,13 @@
     font-family: var(--font-family-main-eb);
     color: var(--color-blue-dark);
     padding-bottom: 50px;
+    max-width: 734px;
 }
 .header__text {
     font-size: 34px;
     padding-bottom: 70px;
     color: var(--color-black-lighter);
+    font-family: var(--font-family-main-m);
 }
 .header__button {
     display: inline-flex;
