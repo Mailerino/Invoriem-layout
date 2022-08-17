@@ -9,18 +9,36 @@
 //   document.body.classList.toggle('no-scroll');
 // }
 
+/* Changing color of arrow on button when hover is active */
 let nav_button = document.querySelector(".nav__button");
-let src_arrow_light = "./images/icons/icon-arrow-right-light.svg";
-let src_arrow_dark = "./images/icons/icon-arrow-right-dark.svg";
+
+function setAttributes(el, attrs) {
+    for(var key in attrs) {
+        el.setAttribute(key, attrs[key]);
+    }
+}
+
+const image_arrow_dark = document.createElement('img');
+setAttributes(image_arrow_dark, {
+    "src": "./images/icons/icon-arrow-right-dark.svg", 
+    "alt": "&#129189;",
+});
+
+const image_arrow_light = document.createElement('img');
+setAttributes(image_arrow_light, {
+    "src": "./images/icons/icon-arrow-right-light.svg", 
+    "alt": "&#129189;",
+});
+
+nav_button.append(image_arrow_dark);
+
 
 nav_button.addEventListener('mouseenter', () => {
-    console.log("Hover")
-    console.log(nav_button.getAttribute('src'))
-    console.log(nav_button.src)
-    nav_button.src = src_arrow_light;
+    image_arrow_dark.remove();
+    nav_button.append(image_arrow_light);
 });
 
 nav_button.addEventListener('mouseleave', () => {
-    console.log("UnHover")
-    nav_button.src = src_arrow_dark;
+    image_arrow_light.remove();
+    nav_button.append(image_arrow_dark);
 });
