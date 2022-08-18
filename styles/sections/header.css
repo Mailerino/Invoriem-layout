@@ -48,7 +48,7 @@
 .nav__links li a:hover::after {
     transform: scaleX(1);
 }
-.nav__button {
+/* .nav__button {
     background: none;
     color: var(--color-blue-dark);
 }
@@ -56,7 +56,7 @@
     color: var(--color-white);
     background-color: var(--color-blue-dark);
     transition: all var(--animation);
-}
+} */
 .nav__toggle {
 }
 .header__content {

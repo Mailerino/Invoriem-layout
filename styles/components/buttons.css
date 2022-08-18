@@ -1,11 +1,11 @@
-.button-main {
+.btn-main {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     column-gap: 16px;
-    
-    padding: 10px 24px;
 
+    padding: 10px 24px;
+    
     border: 2px solid var(--color-blue-dark);
     border-radius: 5px;
 
@@ -17,12 +17,30 @@
     font-family: var(--font-family-main-eb);
 }
 
-.button-main:hover {
+.btn-main:hover,
+.btn-main:focus {
     background-color: var(--color-blue-medium);
-    transition: background-color var(--animation);
 }
-
-.button-main:active {
+.btn-main:active {
     position: relative;
     top: 1px;
+}
+
+.btn-transparent {
+    background: none !important;
+    color: var(--color-blue-dark) !important;
+}
+.btn-transparent:hover,
+.btn-transparent:focus {
+    background-color: var(--color-blue-dark) !important;
+    color: var(--color-white) !important;
+}
+
+.btn-transparent:hover,
+.btn-main:hover {
+    transition: color var(--animation), background-color var(--animation);
+}
+
+.btn-big {
+    padding: 14px 32px;
 }
