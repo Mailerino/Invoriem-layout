@@ -1,0 +1,22 @@
+.slide {
+    position: relative;
+    display: inline-block;
+    padding-left: 80px;
+}
+.slide__title {
+    position: absolute;
+    left: 0;
+    bottom: 104px;
+
+    font-size: 140px;
+    font-family: var(--font-family-main-eb);
+
+    background: linear-gradient(90deg, rgb(17,68,85) 80px, rgb(255,255,255) 80px);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slide__img {
+    width: 645px;
+    height: 760px;
+}

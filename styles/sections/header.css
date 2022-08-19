@@ -65,6 +65,7 @@
 }
 .header__title {
     font-size: 80px;
+    line-height: 1,175;
     font-family: var(--font-family-main-eb);
     color: var(--color-blue-dark);
     padding-bottom: 50px;
@@ -72,6 +73,8 @@
 }
 .header__text {
     font-size: 34px;
+    line-height: 1,175;
+    letter-spacing: -0.02em;
     padding-bottom: 70px;
     color: var(--color-black-lighter);
     font-family: var(--font-family-main-m);

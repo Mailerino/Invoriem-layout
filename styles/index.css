@@ -6,9 +6,13 @@
 /* Components */
 @import url(./components/buttons.css);
 @import url(./components/cards.css);
+@import url(./components/slider.css);
 
 /* Sections */
 @import url(./sections/header.css);
+@import url(./sections/case-studies.css);
+@import url(./sections/about.css);
+@import url(./sections/footer.css);
 
 
 body {
@@ -40,4 +44,20 @@ body {
 }
 .container-left {
     padding-right: calc( (100% - var(--container-width))/2 + var(--container-padding) );
+}
+
+.section-title {
+    font-family: var(--font-family-main-eb);
+    font-size: 80px;
+    line-height: 1,175;
+    color: var(--color-black);
+    max-width: 1060px;
+}
+
+.section-text {
+    font-family: var(--font-family-main-m);
+    font-size: 28px;
+    line-height: 1.57;
+    color: var(--color-black-lighter);
+    max-width: 1060px;
 }

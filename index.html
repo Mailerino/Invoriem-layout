@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Invoriem</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -28,7 +36,7 @@
                             <!-- <img src="./images/icons/icon-arrow-right-dark.svg" alt="&#129189;"> -->
                         </a>
                     </div>
-                    
+
                     <button type="button" class="nav__toggle">
                         <img class="menu-icon" src="./images/icons/icon-menu.svg" alt="Menu">
                     </button>
@@ -48,11 +56,114 @@
             </div>
 
             <!-- <div class="header__row"></div> -->
-            
+
         </div>
     </header>
 
+    <main class="main">
+        <section class="case-studies">
+            <div class="container">
+                <div class="case-studies__title">
+                    <h2 class="section-title">Case Studies</h2>
+                </div>
+                <div class="case-studies__text section-text">
+                    <p>We deliver a unique and truly bespoke approach to delivering
+                        international developments to market, with over 10 years success around
+                        the world.</p>
+                </div>
+            </div>
+            <div class="container-right">
+                <div class="slider owl-carousel owl-theme">
+                    <div class="slider__item slide">
+                        <h3 class="slide__title">France</h3>
+                        <img class="slide__img" src="./images/photos/slider-france.jpg" alt="France">
+                    </div>
+                    <div class="slider__item slide">
+                        <h3 class="slide__title">Moroco</h3>
+                        <img class="slide__img" src="./images/photos/slider-moroco.jpg" alt="Moroco">
+                    </div>
+                    <div class="slider__item slide">
+                        <h3 class="slide__title">London</h3>
+                        <img class="slide__img" src="./images/photos/slider-london.jpg" alt="London">
+                    </div>
+                    <div class="slider__item slide">
+                        <h3 class="slide__title">Portugal</h3>
+                        <img class="slide__img" src="./images/photos/slider-portugal.jpg" alt="Portugal">
+                    </div>
+                    <div class="slider__item slide">
+                        <h3 class="slide__title">Luxembourg</h3>
+                        <img class="slide__img" src="./images/photos/slider-luxembourg.jpg" alt="Luxembourg">
+                    </div>
+                    <div class="slider__item slide">
+                        <h3 class="slide__title">Madrid</h3>
+                        <img class="slide__img" src="./images/photos/slider-madrid.jpg" alt="Madrid">
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="about">
+            <div class="container">
+                <div class="about__title">
+                    <h2 class="section-title">We are Invoriem</h2>
+                </div>
+
+                <div class="about__text section-text">
+                    <p>We fulfill international property developments</p>
+                </div>
+
+                <div class="about__content">
+
+                    <div class="video__cover video-overlay">
+                        <button id="video-btn" class="video__button">
+                            <img src="./images/icons/icon-play.svg" alt="Play">
+                        </button>
+
+                        <img class="video__preview" src="./images/photos/video-preview.jpg">
+                        
+                        <video id="video-file" class="video__object" loop>
+                            <source src="./images/content/video-panama.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__copyright">Copyright © 2020 Invoriem</div>
+                <div class="footer__nav">
+                    <div class="footer_email">
+                        <a href="mailto:info@invoriem.com">info@invoriem.com</a>
+                    </div>
+                    <div class="footer__socials">
+                        <a href="#!">
+                            <img src="./images/icons/icon-instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#!">
+                            <img src="./images/icons/icon-facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#!">
+                            <img src="./images/icons/icon-twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="#!">
+                            <img src="./images/icons/icon-linkedIn.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
