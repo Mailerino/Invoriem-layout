@@ -14,7 +14,9 @@
 @import url(./sections/about.css);
 @import url(./sections/footer.css);
 
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: var(--font-family-main-m);
     background-color: var();

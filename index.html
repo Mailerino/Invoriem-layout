@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Invoriem</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="icon" type="image/x-icon" href="./images/icons/icon-favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -55,12 +56,19 @@
                 </a>
             </div>
 
+            <div class="header__content-mobile">
+                <img class="header__logo-mobile" src="./images/icons/icon-logo.svg" alt="Invoriem">
+                <p class="header__text-mobile">We fulfill international property developments</p>
+            </div>
             <!-- <div class="header__row"></div> -->
 
+            <a href="#main" class="header__arrows">
+                <img src="./images/icons/icon-arrow-scroll.svg" alt="Scroll Down">
+            </a>
         </div>
     </header>
 
-    <main class="main">
+    <main id="main" class="none">
         <section class="case-studies">
             <div class="container">
                 <div class="case-studies__title">
@@ -131,7 +139,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer none">
         <div class="container">
             <div class="footer__row">
                 <div class="footer__copyright">Copyright © 2020 Invoriem</div>
@@ -140,18 +148,10 @@
                         <a href="mailto:info@invoriem.com">info@invoriem.com</a>
                     </div>
                     <div class="footer__socials">
-                        <a href="#!">
-                            <img src="./images/icons/icon-instagram.svg" alt="Instagram">
-                        </a>
-                        <a href="#!">
-                            <img src="./images/icons/icon-facebook.svg" alt="Facebook">
-                        </a>
-                        <a href="#!">
-                            <img src="./images/icons/icon-twitter.svg" alt="Twitter">
-                        </a>
-                        <a href="#!">
-                            <img src="./images/icons/icon-linkedIn.svg" alt="LinkedIn">
-                        </a>
+                        <a href="#!"><img src="./images/icons/icon-instagram.svg" alt="Instagram"></a>
+                        <a href="#!"><img src="./images/icons/icon-facebook.svg" alt="Facebook"></a>
+                        <a href="#!"><img src="./images/icons/icon-twitter.svg" alt="Twitter"></a>
+                        <a href="#!"><img src="./images/icons/icon-linkedIn.svg" alt="LinkedIn"></a>
                     </div>
                 </div>
             </div>

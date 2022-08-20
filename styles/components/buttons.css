@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 16px;
-
+    
     padding: 10px 24px;
     
     border: 2px solid var(--color-blue-dark);
@@ -38,7 +38,7 @@
 
 .btn-transparent:hover,
 .btn-main:hover {
-    transition: color var(--animation), background-color var(--animation);
+    transition: background-color var(--animation);
 }
 
 .btn-big {

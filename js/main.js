@@ -78,6 +78,7 @@ videoWrapper.addEventListener('click', function() {
 
 document.body.onkeydown = function(e) {
     if (e.keyCode == '32') {
+        e.preventDefault(); // Deleting page scroll on 'space'
         if (videoPrev.classList.contains('none')) {
             if (video.paused) {
                 videoWrapper.classList.remove('video-overlay');
