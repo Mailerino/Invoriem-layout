@@ -53,6 +53,15 @@ $(document).ready(function(){
         dots: false,
         margin: 48,
         loop: true,
+        responsive : {
+            0 : {
+                items: 2,
+                margin: 32,
+            },
+            768 : {
+                items: 3,
+            },
+        },
     });
 });
 

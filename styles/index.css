@@ -63,3 +63,25 @@ body {
     color: var(--color-black-lighter);
     max-width: 1060px;
 }
+
+@media (max-width: 767px) {
+    .case-studies__title {
+        margin-bottom: 7px;
+    }
+    .section-title {
+        font-size: 34px;
+    }
+    .section-text {
+        font-size: 16px;
+        max-width: 65%;
+    }
+    .case-studies__text {
+        margin-bottom: 40px;
+    }
+    .container-right {
+        padding-left: 29px;
+    }
+    .container-left {
+        padding-right: 29px;
+    }
+}

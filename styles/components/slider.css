@@ -20,3 +20,20 @@
     width: 645px;
     height: 760px;
 }
+
+@media (max-width: 767px) {
+    .slide {
+        padding-left: 30px;
+    }
+    .slider__item{
+        /* width: 257px;
+        height: 264px; */
+    }
+    .slide__title {
+        font-size: 60px;
+        bottom: 22px;
+        background: linear-gradient(90deg, rgb(17,68,85) 30px, rgb(255,255,255) 30px);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
