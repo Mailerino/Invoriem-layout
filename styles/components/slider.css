@@ -25,9 +25,9 @@
     .slide {
         padding-left: 30px;
     }
-    .slider__item{
-        /* width: 257px;
-        height: 264px; */
+    .slide__img{
+        width: 224px;
+        height: 264px;
     }
     .slide__title {
         font-size: 60px;

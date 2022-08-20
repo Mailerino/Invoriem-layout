@@ -53,12 +53,19 @@ $(document).ready(function(){
         dots: false,
         margin: 48,
         loop: true,
+        items: 3,
         responsive : {
             0 : {
-                items: 2,
+                items: 1,
                 margin: 32,
             },
+            576 : {
+                items: 2,
+            },
             768 : {
+                items: 3,
+            },
+            992 : {
                 items: 3,
             },
         },
