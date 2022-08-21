@@ -51,12 +51,12 @@ nav_button.addEventListener('mouseleave', () => {
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         dots: false,
-        margin: 48,
         loop: true,
+        margin: 48,
         items: 3,
         responsive : {
             0 : {
-                items: 1,
+                items: 2,
                 margin: 32,
             },
             576 : {
@@ -67,6 +67,7 @@ $(document).ready(function(){
             },
             992 : {
                 items: 3,
+                margin: 48,
             },
         },
     });
