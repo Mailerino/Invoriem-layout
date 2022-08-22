@@ -9,7 +9,6 @@
 }
 
 /* Slider */
-
 .slide {
     position: relative;
     display: inline-block;
@@ -28,6 +27,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* .slider__item {
+    overflow-x: hidden;
+} */
 .slide__img {
     width: 645px;
     height: 760px;

@@ -80,7 +80,7 @@ body {
     }
     .section-text {
         font-size: 16px;
-        max-width: 87%;
+        /* max-width: 87%; */
     }
     .case-studies__text {
         margin-bottom: 40px;
