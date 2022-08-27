@@ -51,3 +51,29 @@
 .footer__socials > a:hover {
     border: 1px solid var(--color-black-lighter);
 }
+
+@media (max-width: 991px) {
+    .footer__nav {
+        column-gap: 40px;
+    }
+    .footer__socials {
+        column-gap: 10px;
+    }
+}
+@media (max-width: 849px) {
+    .footer__row {
+        flex-direction: column-reverse;
+        row-gap: 32px;
+    }
+    .footer__nav {
+        flex-direction: column;
+        row-gap: 16px;
+        
+    }
+    .footer__socials {
+        column-gap: 24px;
+    }
+    .footer_email > a{
+        color: var(--color-cobalt-dark);
+    }
+}

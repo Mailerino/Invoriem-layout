@@ -55,3 +55,17 @@
 .video__object {
     vertical-align: top;
 }
+
+@media (max-width: 991px) {
+    .section-title {
+        font-size: 60px;
+    }
+    .video__button {
+        width: 75px;
+        height: 75px;
+    }
+    .video__button img {
+        width: 21px;
+        margin-left: 8px;
+    }
+}
