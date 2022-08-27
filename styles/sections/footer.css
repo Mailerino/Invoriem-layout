@@ -74,6 +74,13 @@
         column-gap: 24px;
     }
     .footer_email > a{
+        font-size: 16px;
         color: var(--color-cobalt-dark);
+    }
+    .footer {
+        padding: 40px 0 40px;
+    }
+    .footer__copyright {
+        font-size: 14px;
     }
 }

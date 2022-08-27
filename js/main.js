@@ -4,9 +4,10 @@
 // const nav = document.querySelector('.nav');
 
 // nav_button.onclick = function(){
-//   nav.classList.toggle('nav--mobile');
-//   menu_icon.classList.toggle('menu-icon--active');
-//   document.body.classList.toggle('no-scroll');
+//     console.log("Click");
+// //   nav.classList.toggle('nav--mobile');
+// //   menu_icon.classList.toggle('menu-icon--active');
+// //   document.body.classList.toggle('no-scroll');
 // }
 
 
@@ -32,6 +33,8 @@ setAttributes(image_arrow_light, {
     "alt": "&#129189;",
 });
 
+
+/* Header-button-arrow init */
 nav_button.append(image_arrow_dark);
 
 
