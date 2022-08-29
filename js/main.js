@@ -1,19 +1,19 @@
 // Header Navigation Button
-// const nav_button = document.querySelector('.nav__toggle');
-// const menu_icon = document.querySelector('.menu-icon');
-// const nav = document.querySelector('.nav');
+const nav_toggle = document.querySelector('.nav__toggle');
 
-// nav_button.onclick = function(){
-//     console.log("Click");
-// //   nav.classList.toggle('nav--mobile');
-// //   menu_icon.classList.toggle('menu-icon--active');
-// //   document.body.classList.toggle('no-scroll');
-// }
+nav_toggle.onclick = function(){
+    // document.body.classList.toggle('no-scroll');
+    document.querySelector('.header').classList.toggle('header--toggle');
+    document.querySelector('.header__toggle').classList.toggle('none');
+    document.querySelector('.main').classList.toggle('none');
+    document.querySelector('.header__content').classList.toggle('none');
+    document.querySelector('.header__content-mobile').classList.toggle('none');
+}
 
 
 /* Changing color of arrow on button when hover is active */
 
-let nav_button = document.querySelector(".nav__button");
+const nav_button = document.querySelector(".nav__button");
 
 function setAttributes(el, attrs) {
     for(var key in attrs) {

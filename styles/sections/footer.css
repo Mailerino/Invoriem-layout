@@ -60,7 +60,7 @@
         column-gap: 10px;
     }
 }
-@media (max-width: 849px) {
+@media (max-width: 767px) {
     .footer__row {
         flex-direction: column-reverse;
         row-gap: 32px;

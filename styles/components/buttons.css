@@ -31,7 +31,7 @@
     color: var(--color-blue-dark) !important;
 }
 .btn-transparent:hover,
-.btn-transparent:focus {
+.btn-transparent:focus:active {
     background-color: var(--color-blue-dark) !important;
     color: var(--color-white) !important;
 }

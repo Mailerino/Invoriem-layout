@@ -49,17 +49,46 @@
 .nav__links li a:hover::after {
     transform: scaleX(1);
 }
-/* .nav__button {
-    background: none;
-    color: var(--color-blue-dark);
+
+/* Toggle */
+.header--toggle {
+    min-height: unset;
+    background-color: var(--color-bg-light);
+    background-image: unset;
 }
-.nav__button:hover {
-    color: var(--color-white);
-    background-color: var(--color-blue-dark);
-    transition: all var(--animation);
-} */
-.nav__toggle {
+.header__toggle {
+    margin: 0 9px 80px;
 }
+.toggle__title {
+    color: var(--color-black);
+    font-family: var(--font-family-main-eb);
+    font-size: 40px;
+    line-height: 1.4;
+    max-width: 219px;
+    margin-bottom: 80px;
+}
+.toggle__content > h3 {
+    color: var(--color-black);
+    font-family: var(--font-family-main-eb);
+    font-size: 24px;
+    line-height: 1.33;
+    margin-bottom: 32px;
+}
+.toggle__info {
+    font-family: var(--font-family-main-m);
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+    color: var(--color-black-lighter);
+}
+.toggle__info--address {
+    max-width: 161px;
+}
+
+
 .header__content-mobile {
     display: none;
 }

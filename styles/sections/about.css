@@ -69,3 +69,8 @@
         margin-left: 8px;
     }
 }
+@media (max-width: 575px) {
+    .about {
+        padding: 40px 0;
+    }
+}
